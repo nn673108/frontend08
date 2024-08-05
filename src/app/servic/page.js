@@ -1,7 +1,8 @@
+import Image from "next/image";
+import styles from "./page.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Link from "next/link";
 
-export default function Home() {
+export default function servic() {
   return (
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -13,21 +14,21 @@ export default function Home() {
        <div className="collapse navbar-collapse" id="navbarSupportedContent">
          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
            <li className="nav-item">
-             <a className="nav-link active" aria-current="page" href="">Home</a>
+             <a className="nav-link active" aria-current="page" href="/" target="blank">Home</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="" target="blank">About</a>
+             <a className="nav-link" href="/about" >About</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="" target="_blank">Servic</a>
+             <a className="nav-link" href="/servic">Servic</a>
            </li>
            <li className="nav-item">
              <a className="nav-link active" aria-current="page" href="" target="blank">Contact </a>
            </li>
          </ul>
          <form className="d-flex" role="search">
-           <Link href="signup" className="btn btn-outline-success" type="submit">Sign Up</Link>&nbsp;
-           <button className="btn btn-outline-success" type="submit">Sign In</button>
+           <button className="btn btn-outline-success" type="submit">Sing In</button>
+           <button className="btn btn-outline-success" type="submit">Sing</button>
          </form>
        </div>
      </div>
@@ -40,13 +41,13 @@ export default function Home() {
      </div>
      <div className="carousel-inner">
        <div className="carousel-item active">
-         <img src="https://static.vecteezy.com/system/resources/previews/030/608/660/large_2x/fuji-mountain-and-lake-kawaguchiko-at-sunset-japan-beautiful-scenic-landscape-of-mountain-fuji-or-fujisan-with-reflection-on-shoji-lake-at-dawn-with-twilight-sky-japan-ai-generated-free-photo.jpg" className="d-block w-100" alt="..." />
+         <img src="https://bamboo-bungalows.com/wp-content/uploads/2021/03/photo-1507525428034-b723cf961d3e-1024x681.jpeg" className="d-block w-100" alt="..." />
        </div>
        <div className="carousel-item">
-         <img src="https://m.media-amazon.com/images/I/51y8GUVKJoL.jpg" className="d-block w-100" alt="..." />
+         <img src="https://lh5.googleusercontent.com/obCPpguxfpMCiEcvM-v87EWvdHZMTKKYbiG9uXoxJkXpt0uTX06LhjB7WTGj4CFQex3EsPotF9Yhx5g-qk1_6uo1TthWzO0kITFiI1jEoQ-8bv3HwKuff-85UI2AwFZJzMeWVgau" className="d-block w-100" alt="..." />
        </div>
        <div className="carousel-item">
-         <img src="https://t3.ftcdn.net/jpg/02/35/78/96/360_F_235789662_9tKzoDqDUHh6ctZQ2pSWFTKnuBuZmBwl.jpg" className="d-block w-100" alt="..." />
+         <img src="https://lh3.googleusercontent.com/62lGvfkNuopSw-e8n50cwwxIlYfeHD78dD-ZVSC_UdjgimYcRLVb3Dk24Cxv7CMJI7GmKTm4KvqLb9wCPV91wvgLxCV4Y36byhfYQCjVPmVqm0aUd2fDDmnCHZK-qHSBC5TgRKG2" className="d-block w-100" alt="..." />
        </div>
      </div>
      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -62,7 +63,7 @@ export default function Home() {
    <div className="row">
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-              <img src="https://cms-b-assets.familysearch.org/dims4/default/b27779d/2147483647/strip/true/crop/856x535+0+0/resize/800x500!/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F36%2F6b%2Fe9b21c5155646968c4a562b1f989%2Fjapanese-woman-with-kimono-fashion.jpeg" className="card-img-top" alt="..." />
+              <img src="https://lh3.googleusercontent.com/62lGvfkNuopSw-e8n50cwwxIlYfeHD78dD-ZVSC_UdjgimYcRLVb3Dk24Cxv7CMJI7GmKTm4KvqLb9wCPV91wvgLxCV4Y36byhfYQCjVPmVqm0aUd2fDDmnCHZK-qHSBC5TgRKG2" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -72,7 +73,7 @@ export default function Home() {
                  </div>
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-               <img src="https://www.pdx.edu/world-languages/sites/worldlanguages.web.wdt.pdx.edu/files/2020-08/wll-japanese.jpg" className="card-img-top" alt="..." />
+               <img src="https://lh6.googleusercontent.com/3rp0_0vmWVdq9NDSBKvaXYY0SO1C3FPFfY0boqJacyqYWYdN_7NHHip5_Rt_xIxtJxjuoS3LV28mELgJUjItdrzz7Po6pruZwnteMq8f-3blnZDEUIqpxLdhA74ZF_C_YH8dGZEy" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -82,7 +83,7 @@ export default function Home() {
                  </div>
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-               <img src="https://i0.wp.com/blog.eternal3d.com/wp-content/uploads/2024/02/The-Best-3-Famous-Japanese-Art-photo.png?w=1000&ssl=1" className="card-img-top" alt="..." />
+               <img src="https://lh5.googleusercontent.com/obCPpguxfpMCiEcvM-v87EWvdHZMTKKYbiG9uXoxJkXpt0uTX06LhjB7WTGj4CFQex3EsPotF9Yhx5g-qk1_6uo1TthWzO0kITFiI1jEoQ-8bv3HwKuff-85UI2AwFZJzMeWVgau" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
