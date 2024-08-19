@@ -1,6 +1,7 @@
 import { Prompt } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from './page.module.css';
 
 const prompt = Prompt ({ weight: ['400','400'], subsets: ["latin"]});
 
