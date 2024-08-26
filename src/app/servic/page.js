@@ -1,34 +1,33 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
-export default function servic() {
+export default function Home() {
   return (
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
      <div className="container-fluid">
-       <a className="navbar-brand" href="#">Logo</a>
+       <a className="navbar-brand" href="#">Nalfiz</a>
        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span className="navbar-toggler-icon" />
        </button>
        <div className="collapse navbar-collapse" id="navbarSupportedContent">
          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
            <li className="nav-item">
-             <a className="nav-link active" aria-current="page" href="/" target="blank">Home</a>
+             <a className="nav-link active" aria-current="page" href="home">Home</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="/about" >About</a>
+             <a className="nav-link active" href="about" target="blank">About</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="/servic">Servic</a>
+             <a className="nav-link active" href="servic" target="blank">Servic</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link active" aria-current="page" href="" target="blank">Contact </a>
+             <a className="nav-link active" aria-current="./" href="contract" target="blank">Contact </a>
            </li>
          </ul>
          <form className="d-flex" role="search">
-           <button className="btn btn-outline-success" type="submit">Sing In</button>
-           <button className="btn btn-outline-success" type="submit">Sing</button>
+           <Link href="signup" className="btn btn-outline-success" type="submit">Sign Up</Link>&nbsp;
+           <Link href="signin" className="btn btn-outline-success" type="submit">Log In</Link>&nbsp;
          </form>
        </div>
      </div>
@@ -41,13 +40,13 @@ export default function servic() {
      </div>
      <div className="carousel-inner">
        <div className="carousel-item active">
-         <img src="https://bamboo-bungalows.com/wp-content/uploads/2021/03/photo-1507525428034-b723cf961d3e-1024x681.jpeg" className="d-block w-100" alt="..." />
+         <img src="https://i0.wp.com/guildjen.com/wp-content/uploads/2024/08/wuwapatch1-2-min.jpg?ssl=1" className="d-block w-100" alt="..." />
        </div>
        <div className="carousel-item">
-         <img src="https://lh5.googleusercontent.com/obCPpguxfpMCiEcvM-v87EWvdHZMTKKYbiG9uXoxJkXpt0uTX06LhjB7WTGj4CFQex3EsPotF9Yhx5g-qk1_6uo1TthWzO0kITFiI1jEoQ-8bv3HwKuff-85UI2AwFZJzMeWVgau" className="d-block w-100" alt="..." />
+         <img src="https://p325k7wa.twic.pics/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg?twic=v1/resize=760/step=10/quality=80" className="d-block w-100" alt="..." />
        </div>
        <div className="carousel-item">
-         <img src="https://lh3.googleusercontent.com/62lGvfkNuopSw-e8n50cwwxIlYfeHD78dD-ZVSC_UdjgimYcRLVb3Dk24Cxv7CMJI7GmKTm4KvqLb9wCPV91wvgLxCV4Y36byhfYQCjVPmVqm0aUd2fDDmnCHZK-qHSBC5TgRKG2" className="d-block w-100" alt="..." />
+         <img src="https://t3.ftcdn.net/jpg/02/35/78/96/360_F_235789662_9tKzoDqDUHh6ctZQ2pSWFTKnuBuZmBwl.jpg" className="d-block w-100" alt="..." />
        </div>
      </div>
      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -63,7 +62,7 @@ export default function servic() {
    <div className="row">
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-              <img src="https://lh3.googleusercontent.com/62lGvfkNuopSw-e8n50cwwxIlYfeHD78dD-ZVSC_UdjgimYcRLVb3Dk24Cxv7CMJI7GmKTm4KvqLb9wCPV91wvgLxCV4Y36byhfYQCjVPmVqm0aUd2fDDmnCHZK-qHSBC5TgRKG2" className="card-img-top" alt="..." />
+              <img src="https://cdn.oneesports.gg/cdn-data/2024/08/WutheringWaves_Shorekeeper-1024x576.jpg" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -73,7 +72,7 @@ export default function servic() {
                  </div>
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-               <img src="https://lh6.googleusercontent.com/3rp0_0vmWVdq9NDSBKvaXYY0SO1C3FPFfY0boqJacyqYWYdN_7NHHip5_Rt_xIxtJxjuoS3LV28mELgJUjItdrzz7Po6pruZwnteMq8f-3blnZDEUIqpxLdhA74ZF_C_YH8dGZEy" className="card-img-top" alt="..." />
+               <img src="https://img.4gamers.com.tw/news-image/9727de0e-1135-418d-b138-9579870d5d95.jpg" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -83,7 +82,7 @@ export default function servic() {
                  </div>
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-               <img src="https://lh5.googleusercontent.com/obCPpguxfpMCiEcvM-v87EWvdHZMTKKYbiG9uXoxJkXpt0uTX06LhjB7WTGj4CFQex3EsPotF9Yhx5g-qk1_6uo1TthWzO0kITFiI1jEoQ-8bv3HwKuff-85UI2AwFZJzMeWVgau" className="card-img-top" alt="..." />
+               <img src="https://img.4gamers.com.tw/news-image/59dc6ff3-4e2f-45f2-9d1c-0110a7a30839.jpg" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

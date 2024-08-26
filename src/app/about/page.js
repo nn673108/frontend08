@@ -1,34 +1,33 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
      <div className="container-fluid">
-       <a className="navbar-brand" href="#">Logo</a>
+       <a className="navbar-brand" href="#">Nalfiz</a>
        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span className="navbar-toggler-icon" />
        </button>
        <div className="collapse navbar-collapse" id="navbarSupportedContent">
          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
            <li className="nav-item">
-             <a className="nav-link active" aria-current="page" href="/">Home</a>
+             <a className="nav-link active" aria-current="./" href="home">Home</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="about"></a>
+             <a className="nav-link active" href="about" target="blank">About</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link" href="Servic">Servic </a>
+             <a className="nav-link active" href="servic" target="blank">Servic</a>
            </li>
            <li className="nav-item">
-             <a className="nav-link active" aria-current="page" href="" target="blank">Contact </a>
+             <a className="nav-link active" aria-current="./" href="contract" target="blank">Contact </a>
            </li>
          </ul>
          <form className="d-flex" role="search">
-           <button className="btn btn-outline-success" type="submit">Sing In</button>
-           <button className="btn btn-outline-success" type="submit">Sing</button>
+           <Link href="signup" className="btn btn-outline-success" type="submit">Sign Up</Link>&nbsp;
+           <Link href="signin" className="btn btn-outline-success" type="submit">Sign In</Link>&nbsp;
          </form>
        </div>
      </div>
@@ -41,13 +40,13 @@ export default function Home() {
      </div>
      <div className="carousel-inner">
        <div className="carousel-item active">
-         <img src="https://lh5.googleusercontent.com/obCPpguxfpMCiEcvM-v87EWvdHZMTKKYbiG9uXoxJkXpt0uTX06LhjB7WTGj4CFQex3EsPotF9Yhx5g-qk1_6uo1TthWzO0kITFiI1jEoQ-8bv3HwKuff-85UI2AwFZJzMeWVgau" className="d-block w-100" alt="..." />
+         <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/jujutsu-kaisen-season-2-key-visual.jpg" className="d-block w-100" alt="..." />
        </div>
        <div className="carousel-item">
-         <img src="https://lh3.googleusercontent.com/B7JsctmG1orydjnB3FYdqnywMTvHnndAfPh_IbJ64V3mlZyP7HE7GtDUAcCz2LGUyW4Hp2zf7tsa2AFTcMeuWV9CUDPcawfxI1i8ASuxG-P7MWXnNqkRnah0R-aj8U5o-fbD3O44" className="d-block w-100" alt="..." />
+         <img src="https://p325k7wa.twic.pics/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg?twic=v1/resize=760/step=10/quality=80" className="d-block w-100" alt="..." />
        </div>
        <div className="carousel-item">
-         <img src="https://lh6.googleusercontent.com/27187i5uRLOMykJFxIacCPDLWadJWVgyF3BIQ2iWHN9LhfKY7zPrJTabQesCKAOY9nTJR9dQ3v6B9uKuNrfM3ut10zm8Ni1wYWiti44i3p8_JVwtOd9hrh2r74SbWQweuoZ7eLZ_" className="d-block w-100" alt="..." />
+         <img src="https://t3.ftcdn.net/jpg/02/35/78/96/360_F_235789662_9tKzoDqDUHh6ctZQ2pSWFTKnuBuZmBwl.jpg" className="d-block w-100" alt="..." />
        </div>
      </div>
      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -63,7 +62,7 @@ export default function Home() {
    <div className="row">
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-              <img src="https://lh6.googleusercontent.com/27187i5uRLOMykJFxIacCPDLWadJWVgyF3BIQ2iWHN9LhfKY7zPrJTabQesCKAOY9nTJR9dQ3v6B9uKuNrfM3ut10zm8Ni1wYWiti44i3p8_JVwtOd9hrh2r74SbWQweuoZ7eLZ_" className="card-img-top" alt="..." />
+              <img src="https://p325k7wa.twic.pics/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg?twic=v1/resize=760/step=10/quality=80" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -73,7 +72,7 @@ export default function Home() {
                  </div>
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-               <img src="https://lh5.googleusercontent.com/obCPpguxfpMCiEcvM-v87EWvdHZMTKKYbiG9uXoxJkXpt0uTX06LhjB7WTGj4CFQex3EsPotF9Yhx5g-qk1_6uo1TthWzO0kITFiI1jEoQ-8bv3HwKuff-85UI2AwFZJzMeWVgau" className="card-img-top" alt="..." />
+               <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/maki-gojo-satoru-yuta-protagonist-jujutsu-kaisen-jjk.JPG" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -83,7 +82,7 @@ export default function Home() {
                  </div>
          <div className="col-4 text center" >
              <div className="card" style={{width: '34rem'}}>
-               <img src="https://lh6.googleusercontent.com/3rp0_0vmWVdq9NDSBKvaXYY0SO1C3FPFfY0boqJacyqYWYdN_7NHHip5_Rt_xIxtJxjuoS3LV28mELgJUjItdrzz7Po6pruZwnteMq8f-3blnZDEUIqpxLdhA74ZF_C_YH8dGZEy" className="card-img-top" alt="..." />
+               <img src="https://preview.redd.it/nhcopqm3hjz71.png?width=640&crop=smart&auto=webp&s=f51023ed94f7db60ececeb7a0bafaba3680e6d18" className="card-img-top" alt="..." />
                  <div className="card-body">
                    <h5 className="card-title">Card title</h5>
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

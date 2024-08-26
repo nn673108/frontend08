@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
-import styles from './page.module.css';
+
 export default function Home() {
   return (
     <>
@@ -13,7 +13,7 @@ export default function Home() {
        <div className="collapse navbar-collapse" id="navbarSupportedContent">
          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
            <li className="nav-item">
-             <a className="nav-link active" aria-current="home" href="">Home</a>
+             <a className="nav-link active" aria-current="page" href="home">Home</a>
            </li>
            <li className="nav-item">
              <a className="nav-link active" href="about" target="blank">About</a>
